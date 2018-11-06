@@ -34,7 +34,7 @@ Installation
 
 ::
 
-    pip install python-consul
+    pip install git+git://github.com/veracross/python-consul.git@master
     
 **Note:** When using python-consul library in environment with proxy server, setting of ``http_proxy``, ``https_proxy`` and ``no_proxy`` environment variables can be required for proper functionality.
 
